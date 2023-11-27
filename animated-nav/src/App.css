@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px;
+  background-color: #011627;
+  height: 30px;
+  color: white;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #011627;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  transition: all 2s;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  background-color: maroon;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+ul li a:hover,
+ul li a:active {
+  background-color: #011627;
+}
